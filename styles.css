@@ -1,0 +1,22 @@
+/* Want to change background color based on song */
+body {
+    background-color: rgb(241, 114, 68);
+}
+
+/* Turn into waves once file is in */
+
+#FirstMusicBox {
+    background-color: brown;
+    border-radius: 10%;
+    width: 100px;
+    height:100px;
+}
+
+/* Turn into waves once file is in */
+
+#SecondMusicBox {
+    background-color: brown;
+    border-radius: 10%;
+    width: 100px;
+    height:100px;
+}
