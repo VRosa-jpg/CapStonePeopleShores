@@ -43,4 +43,19 @@ img {
 #middleContainer {
     display:flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
+.responsiveMidText {
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+/* Middle Container: Right Side */
+
+#middleRightSide {
+    margin:10px;
+}
+
+
+
+/* Middle Container: Left Side */
