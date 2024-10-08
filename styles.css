@@ -1,21 +1,41 @@
 
+/* body */
+body {
+    background-color: #ffffff;
+}
+
 /* Nav Bar */
 .bg-color-navbar {
-    background-color: #041114;
+    background-color: #071c20;
     color: #dbdbdb;
+}
+
+/* Text */
+.text {
+    color:#041114;
 }
 
 /* Top Container */
 #topContainer {
     display:flex;
     justify-content: center;
+    background-color: #e9e5cd;
 }
 
-/* Main Container: Right Side */
-
+/* Top Container: Right Side */
+#rightSide {
+    margin:10px;
+}
 /* Image */
 img {
+    border-radius: 50%;
     width:500px;
+    height:425px;
+}
+
+/* Top Container: Leftside */
+#leftSide {
+    margin:10px;
 }
 
 
