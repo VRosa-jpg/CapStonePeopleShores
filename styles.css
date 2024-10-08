@@ -1,33 +1,26 @@
-html {
-    background-color: black;
+
+/* Nav Bar */
+.bg-color-navbar {
+    background-color: #041114;
+    color: #dbdbdb;
+}
+
+/* Top Container */
+#topContainer {
+    display:flex;
+    justify-content: center;
+}
+
+/* Main Container: Right Side */
+
+/* Image */
+img {
+    width:500px;
 }
 
 
-/* Want to change background color based on song */
-body {
-    background-color: rgb(241, 114, 68);
-    width: 80%;
-    margin-left:auto;
-    margin-right:auto;
-    padding-left: 5em;
-    padding-right:5em;
-}
-
-/* Turn into waves once file is in */
-
-#FirstMusicBox {
-    background-color: brown;
-    border-radius: 10%;
-    width: 100px;
-    height:100px;
-}
-
-/* Turn into waves once file is in */
-
-#SecondMusicBox {
-    background-color: brown;
-    border-radius: 10%;
-    width: 100px;
-    height:100px;
-    align-self: flex-start;
+/* Middle Container */
+#middleContainer {
+    display:flex;
+    justify-content: center;
 }
