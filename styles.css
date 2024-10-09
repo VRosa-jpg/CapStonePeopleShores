@@ -31,11 +31,13 @@ body {
 /* Top Container: Right Side */
 #rightSide {
     margin:10px;
+    padding: 10px;
 }
 
 /* Top Container: Leftside */
 #leftSide {
     margin:10px;
+    padding: 10px;
 }
 
 /* Image */
