@@ -32,18 +32,18 @@ body {
 #rightSide {
     margin:10px;
 }
-/* Image */
-img {
-    border-radius: 50%;
-    width:500px;
-    height:425px;
-}
 
 /* Top Container: Leftside */
 #leftSide {
     margin:10px;
 }
 
+/* Image */
+img {
+    border-radius: 50%;
+    width:500px;
+    height:425px;
+}
 
 /* Middle Container */
 #middleContainer {
