@@ -46,6 +46,9 @@ img {
     flex-wrap: wrap;
 }
 .responsiveMidText {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
     margin-left: 300px;
     margin-right: 300px;
 }
@@ -53,7 +56,11 @@ img {
 /* Middle Container: Right Side */
 
 #middleRightSide {
-    margin:10px;
+    margin:20px;
+}
+
+#middleLeftSide {
+    margin:20px;
 }
 
 
