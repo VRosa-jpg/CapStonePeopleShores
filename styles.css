@@ -15,10 +15,12 @@ body {
   
 
 /* Top Container */
-#topContainer {
+.container-css {
     display:flex;
     justify-content: center;
     background-color: #e9e5cd;
+    height: 100vh;
+    width: 100vw;
 }
 
 /* Top Container: Right Side */
@@ -35,9 +37,9 @@ body {
 
 /* Image */
 img {
-    border-radius: 50%;
-    width:500px;
-    height:425px;
+    border-radius: 5%;
+    width:600px;
+    height:525px;
 }
 
 /* Middle Container */
