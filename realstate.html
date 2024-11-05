@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <script defer src="main.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+    </style>
+    <title>Finance</title>
+</head>
+<body>
+  <!-- NavBar -->
+  <nav class="navbar navbar-expand-lg pb-3 pt-4" id="navBar" style="background-color: #071c20; font-family: Abril Fatface, serif;">
+    <div class="col-lg-2"> </div>
+    <a class="navbar-brand pb-2 pt-2 px-2" id="secretStash" style="color: rgb(81, 196, 111); font-size: 25px;" href="#">Secret Stash</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" style="color: rgb(100, 201, 127);" href="#">Real Estate</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="color: rgb(81, 196, 111);" href="realestate.html">Savings</a>
+        </li>
+        <!-- Dropdown -->
+        <li class="nav-item dropdown" id="dropDown">
+          <a class="nav-link dropdown-toggle dropdown" style="color:rgb(81, 196, 111);" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Resources
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown" id="dropdownContent">
+            <a class="dropdown-item" style="color: rgb(81, 196, 111);" href="stocktips.html">Stock Tips</a>
+            <a class="dropdown-item" style="color: rgb(81, 196, 111);" href="impactblog.html">Impact Blog</a>
+            <a class="dropdown-item" style="color: rgb(81, 196, 111);" href="advisory.html">Advisory</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" style="color: rgb(81, 196, 111);" href="#">Stock Market</a>
+        </li>
+      </ul>
+      <div class="col-md-2"> </div>
+      <form class="form-inline d-flex flex-row">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+  <main>

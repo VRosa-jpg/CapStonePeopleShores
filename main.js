@@ -21,19 +21,30 @@ document.getElementById('dropDown').addEventListener('mouseout', function() {
     document.getElementById('dropdownContent').style.display = 'none';
 });
 
-const navcolor = document.getElementById('navBar')
-const divInfo = document.createElement('div')
+const navcolor = document.getElementById('navBar');
+const myInfoBox = document.createElement("div");
+myInfoBox.innerHTML = "This is the text content";
+myInfoBox.style.position = 'absolute'; // Set positioning to absolute to control placement on the page
+myInfoBox.style.top = '0'; // Adjust these to position `myInfoBox` at the top of the page
+myInfoBox.style.left = '0';
+myInfoBox.style.display = 'none'; // Initially hidden
+document.body.appendChild(myInfoBox);
+
+
 
 // Logo Name
 document.getElementById('secretStash').onmouseover = function () {
     this.style.color = 'red';
     navcolor.style.backgroundColor = 'black';
+    myInfoBox.style.backgroundColor = 'red';
+    myInfoBox.style.display = 'block'
+    console.log(myInfoBox)
 }
-
-
 
 
 document.getElementById('secretStash').onmouseout = function() {
     this.style.color = 'rgb(81, 196, 111)';
     navcolor.style.backgroundColor = '#071c20';
+    myInfoBox.style.display = 'none'
+    
 }
