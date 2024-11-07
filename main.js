@@ -25,8 +25,11 @@ const navcolor = document.getElementById('navBar');
 const myInfoBox = document.createElement("div");
 myInfoBox.innerHTML = "This is the text content";
 myInfoBox.style.position = 'absolute'; // Set positioning to absolute to control placement on the page
-myInfoBox.style.top = '0'; // Adjust these to position `myInfoBox` at the top of the page
-myInfoBox.style.left = '0';
+myInfoBox.style.top = '50%'; // Adjust these to position `myInfoBox` at the top of the page
+myInfoBox.style.left = '50%';
+myInfoBox.style.height = '25%';
+myInfoBox.style.width = '25%';
+myInfoBox.style.opacity='.53';
 myInfoBox.style.display = 'none'; // Initially hidden
 document.body.appendChild(myInfoBox);
 
